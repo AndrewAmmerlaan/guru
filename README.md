@@ -24,7 +24,7 @@ The [GURU regulations](https://wiki.gentoo.org/wiki/Project:GURU#The_regulations
 
 1. [Frequently Asked Questions](#FAQ)
 2. [Common Mistakes](#CommMist)
-3. [Other Tips and Guidelines](#tips)
+3. [Other Tips and Tricks](#tips)
 4. [Useful Links](#links)
 5. [Email Addresses](#email)
 
