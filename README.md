@@ -7,14 +7,14 @@
 # GURU Project Repository
 
 <table><tr>
-<td width="60%">
+<td width="70%">
 
 The official repository for new Gentoo packages that are maintained collaboratively by Gentoo users. See [wiki.gentoo.org/wiki/Project:GURU](https://wiki.gentoo.org/wiki/Project:GURU) for more information on the project.
 
 This README contains some additional useful information for GURU contributors, such as common mistakes, frequently asked questions and other tips and tricks. The [GURU regulations](https://wiki.gentoo.org/wiki/Project:GURU#The_regulations), and the Gentoo [developer manual](https://devmanual.gentoo.org/) take precedence over any information here.
 
 </td>
-<td width="30%" style="border-style:solid; border-radius:10px;">
+<td width="25%" style="border-style:solid; border-radius:10px;">
 
 ### Contents
 
