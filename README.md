@@ -9,7 +9,7 @@
 <table><tr>
 <td width="68%">
 
-The official repository for new Gentoo packages that are maintained collaboratively by Gentoo users. See [wiki.gentoo.org/wiki/Project:GURU](https://wiki.gentoo.org/wiki/Project:GURU) for more information on the project.
+##### The official repository for new Gentoo packages that are maintained collaboratively by Gentoo users. See [wiki.gentoo.org/wiki/Project:GURU](https://wiki.gentoo.org/wiki/Project:GURU) for more information on the project.
 
 This README contains some additional useful information for GURU contributors, such as common mistakes, frequently asked questions and other tips and tricks. 
 
