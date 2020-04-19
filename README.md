@@ -38,7 +38,7 @@ Sure, since GURU packages are not mirrored on the [Gentoo mirrors](https://devma
 
 - #### I need help, where do I go?
 
-You can reach other GURU contributors on [IRC #gentoo-guru](https://webchat.freenode.net/?channels=gentoo-guru), by emailing guru-committers@gentoo.org, or by opening an [issue on our GitHub](https://github.com/gentoo/guru/issues)
+You can reach other GURU contributors on [IRC #gentoo-guru](https://webchat.freenode.net/?channels=gentoo-guru), or by emailing guru-committers@gentoo.org.
 
 - #### I found a bug, what do I do?
 
@@ -54,7 +54,7 @@ As per [the regulations](https://wiki.gentoo.org/wiki/Project:GURU#The_regulatio
 
 - #### I want to make changes to this document, can I?
 
-Please discuss any changes and additions to this document in an [issue on our GitHub](https://github.com/gentoo/guru/issues) prior to committing them.
+Please discuss any changes and additions to this document on our [bug tracker](https://bugs.gentoo.org/enter_bug.cgi?product=GURU) prior to committing them.
 
 
 ## Common Mistakes <a name="CommMist"></a>
