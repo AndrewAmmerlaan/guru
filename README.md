@@ -1,7 +1,6 @@
 **This document is a draft, which is why it is in this fork for now**
 
 ![logo](guru.svg)
-![logo](650px-GURU.png)
 
 # GURU Project Repository
 
