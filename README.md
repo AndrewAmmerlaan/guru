@@ -1,5 +1,8 @@
 **This document is a draft, which is why it is in this fork for now**
 
+![logo](guru.svg)
+![logo](650px-GURU.png)
+
 # GURU Project Repository
 
 The official repository for new Gentoo packages that are maintained collaboratively by Gentoo users. See [wiki.gentoo.org/wiki/Project:GURU](https://wiki.gentoo.org/wiki/Project:GURU) for more information on the project.
