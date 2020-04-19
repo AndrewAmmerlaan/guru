@@ -6,13 +6,12 @@
 
 # GURU Project Repository
 
-<table>
-<tr>
+<table><tr>
 <td width="60%">
 
 The official repository for new Gentoo packages that are maintained collaboratively by Gentoo users. See [wiki.gentoo.org/wiki/Project:GURU](https://wiki.gentoo.org/wiki/Project:GURU) for more information on the project.
 
-This README contains some additional useful information for GURU contributors, such as common mistakes and frequently asked questions. The [GURU regulations](https://wiki.gentoo.org/wiki/Project:GURU#The_regulations), and the Gentoo [developer manual](https://devmanual.gentoo.org/) take precedence over any information here.
+This README contains some additional useful information for GURU contributors, such as common mistakes, frequently asked questions and other tips and tricks. The [GURU regulations](https://wiki.gentoo.org/wiki/Project:GURU#The_regulations), and the Gentoo [developer manual](https://devmanual.gentoo.org/) take precedence over any information here.
 
 </td>
 <td width="30%" style="border-style:solid; border-radius:10px;">
@@ -26,8 +25,7 @@ This README contains some additional useful information for GURU contributors, s
 5. [Email Addresses](#email)
 
 </td>
-</tr>
-</table>
+</tr></table>
 
 ## Frequently Asked Questions <a name="FAQ"></a>
 
@@ -57,7 +55,7 @@ You can reach other GURU contributors on [IRC #gentoo-guru](https://webchat.free
 
 - #### I found a bug, what do I do?
 
-You can either contact the GURU contributors using one of the options in the previous point, or you can open a bug on the bug tracker: [bugs.gentoo.org/enter_bug.cgi?product=GURU](https://bugs.gentoo.org/enter_bug.cgi?product=GURU)
+You can either contact the GURU contributors using one of the options in the previous point, or you can open a bug on our bug tracker: [bugs.gentoo.org/enter_bug.cgi?product=GURU](https://bugs.gentoo.org/enter_bug.cgi?product=GURU)
 
 - #### I found a bug in a package that I do not maintain, and I know how to fix it, can I fix it myself?
 
