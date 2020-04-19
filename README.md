@@ -15,7 +15,7 @@ The official repository for new Gentoo packages that are maintained collaborativ
 This README contains some additional useful information for GURU contributors, such as common mistakes and frequently asked questions. The [GURU regulations](https://wiki.gentoo.org/wiki/Project:GURU#The_regulations), and the Gentoo [developer manual](https://devmanual.gentoo.org/) take precedence over any information here.
 
 </td>
-<td width="40%" style="border-style:solid; border-radius:10px;">
+<td width="30%" style="border-style:solid; border-radius:10px;">
 
 ### Contents
 
