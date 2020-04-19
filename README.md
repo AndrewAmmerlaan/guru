@@ -4,7 +4,7 @@
 <img src="guru.svg" alt="logo">
 </p>
 
-# GURU Project Repository
+# The GURU Project Repository
 
 <table><tr>
 <td width="68%">
