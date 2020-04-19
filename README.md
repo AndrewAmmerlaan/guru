@@ -10,11 +10,12 @@
 <td width="68%">
 
 **The official repository for new Gentoo packages, maintained collaboratively by Gentoo users.**
-**See [wiki.gentoo.org/wiki/Project:GURU](https://wiki.gentoo.org/wiki/Project:GURU) for more information on the project.**
 
 This README contains some additional useful information for GURU contributors, such as common mistakes, frequently asked questions and other tips and tricks. 
 
 The [GURU regulations](https://wiki.gentoo.org/wiki/Project:GURU#The_regulations), and the Gentoo [developer manual](https://devmanual.gentoo.org/) take precedence over any information here.
+
+*See [wiki.gentoo.org/wiki/Project:GURU](https://wiki.gentoo.org/wiki/Project:GURU) for more information on the project.*
 
 </td>
 <td width="27%" style="border-style:solid; border-radius:10px;">
