@@ -6,9 +6,15 @@
 
 # GURU Project Repository
 
+<div style="display:table;">
+<div style="float:left; width:65%;">
+
 The official repository for new Gentoo packages that are maintained collaboratively by Gentoo users. See [wiki.gentoo.org/wiki/Project:GURU](https://wiki.gentoo.org/wiki/Project:GURU) for more information on the project.
 
 This README contains some additional useful information for GURU contributors, such as common mistakes and frequently asked questions. The [GURU regulations](https://wiki.gentoo.org/wiki/Project:GURU#The_regulations), and the Gentoo [developer manual](https://devmanual.gentoo.org/) take precedence over any information here.
+
+</div>
+<div style="float:right; width:30%; border-style:solid; border-radius:5px;">
 
 ### Contents
 
@@ -17,6 +23,9 @@ This README contains some additional useful information for GURU contributors, s
 3. [Other Tips and Guidelines](#tips)
 4. [Useful Links](#links)
 5. [Email Addresses](#email)
+
+</div>
+</div>
 
 ## Frequently Asked Questions <a name="FAQ"></a>
 
