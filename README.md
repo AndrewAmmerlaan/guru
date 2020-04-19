@@ -101,7 +101,7 @@ Since the packages in GURU are all 'new packages' (not in ::gentoo). It is good 
 
 Running `repoman -dx full` in the directory your ebuild is in will preform some basic checks on your ebuild. Please try to make `repoman -dx full` as happy as possible before committing.
 
-Pkgcheck does even more checks than repoman. While it is good practice to make repoman as happy as possible, it is not necessary to fix *every* issue that pkgcheck reports. Because pkgcheck is *very* strict.
+Pkgcheck does even more checks than repoman. While it is good practice to make repoman as happy as possible, it is not necessary to fix *every* issue that pkgcheck reports. Because pkgcheck is *very* strict. That being said, pkgcheck is a very useful tool to perfect your ebuilds.
 
 - #### Tests and documentation for Python packages.
 
