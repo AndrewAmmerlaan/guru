@@ -1,6 +1,8 @@
 **This document is a draft, which is why it is in this fork for now**
 
-![logo](guru.svg)
+<center>
+<img src="guru.svg" alt="logo">
+</center>
 
 # GURU Project Repository
 
