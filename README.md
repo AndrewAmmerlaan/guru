@@ -90,7 +90,7 @@ In GURU we use ['thin manifests'](https://wiki.gentoo.org/wiki/Repository_format
 
 - #### Quote your variables
 
-String variables should be quoted (e.g. not $A or ${A} but "${A}"). `repoman -dx full` will warn you about any unquoted variables you might have forgotten about.]
+String variables should be quoted (e.g. not `$A` or `${A}` but `"${A}"`). `repoman -dx full` will warn you about any unquoted variables you might have forgotten about.
 
 - #### Undesirable/Deprecated dependencies
 
