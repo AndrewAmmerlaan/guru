@@ -84,7 +84,7 @@ When moving a package from a Pull Request in the [main Gentoo Repository](https:
 
 - #### Use repoman for committing
 
-Avoid using `git commit -S` for committing, use `repoman ci` instead. [Repoman](https://wiki.gentoo.org/wiki/Repoman) does additional checks and regenerates the manifest before committing.
+`repoman ci` is strongly preferred over `git commit -S` for committing, because [repoman](https://wiki.gentoo.org/wiki/Repoman) does additional checks and regenerates the manifest before committing. Sometimes committing with repoman is not possible (e.g. when committing eclasses or removing packages), in these cases there is no other possibility but to revert to `git commit -S`. In all other cases it is good practice to use repoman.
 
 In GURU we use ['thin manifests'](https://wiki.gentoo.org/wiki/Repository_format/package/Manifest#Thin_Manifest). Because this is not the default, manifest files should be regenerated when moving a package from another overlay that does not use thin manifests (including your [local overlay](https://wiki.gentoo.org/wiki/Custom_repository) unless it is also configured to use thin manifests).
 
@@ -94,11 +94,16 @@ String variables should be quoted (e.g. not $A or ${A} but "${A}"). `repoman -dx
 
 - #### Undesirable/Deprecated dependencies
 
-Sometimes a upstream lists dependencies which are considered deprecated. If possible, packages should not depend on these deprecated dependencies. Reasons a dependency might be deprecated is that it is too old, unmaintained, or the features it adds are not useful to Gentoo. You can find an overview of the currently deprecated dependencies and the reason they are deprecated in `${Gentoo_repo_dir}/profiles/package.deprecated`. `repoman -dx full` will warn you if your package depends on a deprecated dependency.
+Sometimes a upstream lists dependencies which are considered deprecated. If possible, packages should **not** depend on these deprecated dependencies. Reasons a dependency might be deprecated is that it is too old, unmaintained, or the features it adds are not useful to Gentoo. You can find an overview of the currently deprecated dependencies and the reason they are deprecated in `${Gentoo_repo_dir}/profiles/package.deprecated`. `repoman -dx full` will warn you if your package depends on a deprecated dependency.
+
+For Python packages there are some additional (test) dependencies that are considered undesirable or not useful, but are not considered deprecated. You can find an overview of those [here](https://dev.gentoo.org/~mgorny/python-guide/distutils.html#enabling-tests).
 
 - #### Licenses of bundled libraries
 
-Some packages include files that are licensed under a different license then the rest of the package. In this case all the licenses should be specified in the LICENSE variable. This is very often the case for packages written in rust or go.
+Some packages include files that are licensed under a different license then the rest of the package. In this case all the licenses should be specified in the LICENSE variable. This is very often the case for packages written in Rust or Go.
+
+Rust and Go packages automagically collect all dependencies. The licenses of the things that are statically linked in these packages should be checked *manually*.
+
 
 ## Other Tips and Tricks <a name="tips"></a>
 
@@ -122,7 +127,9 @@ Pkgcheck does even more checks than repoman. While it is good practice to make r
 
 - #### Tests and documentation for Python packages.
 
-Many Python packages have tests and documentation. Unlike some other eclasses the [distutils-r1 eclass](https://devmanual.gentoo.org/eclass-reference/distutils-r1.eclass/index.html) does not enable support for these tests automatically. This is because there are multiple test runners available for Python. To enable tests for your Python ebuilds, use the `distutils_enable_tests <test-runner>` function. Similarly, support for documentation building with Sphinx can be added with the `distutils_enable_sphinx <subdir> [--no-autodoc | <plugin-pkgs>...]` function. Please note that these functions already append to IUSE and RESTRICT, so there is no need to specify this manually. See the [dev manual](https://devmanual.gentoo.org/eclass-reference/distutils-r1.eclass/index.html) for more information.
+Many Python packages have tests and documentation. Unlike some other eclasses the [distutils-r1 eclass](https://devmanual.gentoo.org/eclass-reference/distutils-r1.eclass/index.html) does not enable support for these tests automatically. This is because there are multiple test runners available for Python. To enable tests for your Python ebuilds, use the `distutils_enable_tests <test-runner>` function. Similarly, support for documentation building with Sphinx can be added with the `distutils_enable_sphinx <subdir> [--no-autodoc | <plugin-pkgs>...]` function. Please note that these functions already append to IUSE and RESTRICT, so there is no need to specify this manually. 
+
+See the [dev manual](https://devmanual.gentoo.org/eclass-reference/distutils-r1.eclass/index.html) and the [Gentoo Python Guide](https://dev.gentoo.org/~mgorny/python-guide/distutils.html) for more information.
 
 ## Useful Links <a name="links"></a>
 
